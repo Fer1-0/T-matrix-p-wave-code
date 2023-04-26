@@ -115,7 +115,7 @@ def T(w):
     K4 = np.dot(K3, Vm) #producto matricial
     return K4
 
-#sea un valor dado para w = g
+#sea un valor dado para w = g, para este caso indiqué w=2.0
 g=2.0
 
 # hagamos un enmallado que mida Nx**2 y Ny**2 para poder graficar los componentes de la matriz T(w)
